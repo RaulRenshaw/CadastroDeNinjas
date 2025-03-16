@@ -1,8 +1,9 @@
-package com.example.demo;
+package com.example.demo.Ninja;
 
+import com.example.demo.Missoes.MissaoModel;
 import jakarta.persistence.*;
 
-import java.awt.*;
+import java.util.List;
 
 @Entity
 @Table(name = "tb_cadastro")
@@ -14,6 +15,12 @@ public class NinjaModel {
     private String name;
     private String email;
     private int idade;
+
+
+    //um ninja tem uma unica missao
+    @ManyToOne
+    @JoinColumn(name = "missoes_id") // chave estrangeira
+    private MissaoModel missoes;
 
     public NinjaModel(){}
 
