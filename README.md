@@ -11,29 +11,10 @@ Buscar um ninja pelo nome (opcional).
 Remover um ninja do cadastro (opcional).
 
 ⚙️ Tecnologias
-Linguagem: [coloque aqui: Python, Java, C#, etc.]
+Linguagem: Java.
 
 Estruturas básicas: entrada/saída de dados, listas, funções.
 
-🚀 Como executar
-Clone este repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/cadastro-ninjas.git
-Acesse o diretório:
-
-bash
-Copiar
-Editar
-cd cadastro-ninjas
-Execute o programa:
-
-bash
-Copiar
-Editar
-[coloque o comando de execução aqui, ex.: python cadastro.py, java CadastroNinja, etc.]
 📝 Como usar
 Escolha a opção no menu:
 
@@ -55,12 +36,6 @@ Clã
 
 Nível (poder, rank, etc.)
 
-O sistema armazena as informações e permite consultar posteriormente.
-
-✅ Exemplo de saída
-yaml
-Copiar
-Editar
 ==== Sistema de Cadastro de Ninjas ====
 1 - Cadastrar ninja
 2 - Listar ninjas
